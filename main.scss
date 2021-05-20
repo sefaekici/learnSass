@@ -1,7 +1,12 @@
 /*
 main.scss dosyasının compile edilmesi için live sass compiler eklentisi vscode üzerine yüklenmiştir
 bunun dışında sass isimli eklenti de yüklenmiştir.
+Ayrıca sass izlemek için aşağıdaki kod kullanılabilir.
+sass --watch input.scss output.css
+
 */
+
+//module isimli dosyanın import edilmesi.module dosyaları oluşturulurken '_' ile başlayarak isimlendirilmelilerdir.
 
 //Değişken Tanımlama İşlemi.
 $bodyBackground: bisque;
@@ -15,6 +20,14 @@ $boxColor: #32ff7e;
   width: 100px;
   height: 100px;
   margin: 1rem;
+}
+
+//parametre olarak degisken alan mixin yapısı.
+@mixin border($ust, $sag, $alt, $sol) {
+  border-top: $ust solid #32ff7e;
+  border-left: $sol solid $linkColor;
+  border-right: $sag solid $liBorderColor;
+  border-bottom: $alt solid $bodyBackground;
 }
 
 * {
@@ -64,6 +77,12 @@ body {
       .box1,
       .box2 {
         @extend .kutu;
+      }
+
+      //include yapısı ile mixinler eklenebilir.
+      .box3 {
+        @extend .kutu;
+        @include border(10px, 5px, 3px, 12px);
       }
     }
 

@@ -2,9 +2,12 @@
 /*
 main.scss dosyasının compile edilmesi için live sass compiler eklentisi vscode üzerine yüklenmiştir
 bunun dışında sass isimli eklenti de yüklenmiştir.
+Ayrıca sass izlemek için aşağıdaki kod kullanılabilir.
+sass --watch input.scss output.css
+
 */
 .kutu, body .container .kutular .box1,
-body .container .kutular .box2 {
+body .container .kutular .box2, body .container .kutular .box3 {
   border: 10px solid plum;
   width: 100px;
   height: 100px;
@@ -68,6 +71,13 @@ body .container .kutular {
       box1 ve box2 classlarına eklendi bu sayede bir daha kullanılmasına gerek kalmadı 
       kod tekrarı önlenmiş oldu.
       */
+}
+
+body .container .kutular .box3 {
+  border-top: 10px solid #32ff7e;
+  border-left: 12px solid black;
+  border-right: 5px solid plum;
+  border-bottom: 3px solid bisque;
 }
 
 body .container header {
