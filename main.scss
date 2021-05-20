@@ -1,0 +1,56 @@
+/*
+main.scss dosyasının compile edilmesi için live sass compiler eklentisi vscode üzerine yüklenmiştir
+bunun dışında sass isimli eklenti de yüklenmiştir.
+*/
+
+//Değişken Tanımlama İşlemi.
+$bodyBackground: bisque;
+$linkColor: black;
+$liBorderColor: plum;
+$linkHoverOpacity: 0.6;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+//scss ile birlikte nested yapılar kullanılabilir örneğin burdaki yapıda body'nin içindeki a yı temsil eder.
+//body nin içerisindeki a'ya hover olunduğunda uygulanıcak style işlemi olarak açıklanabilir.
+body {
+  background-color: $bodyBackground;
+  a {
+    color: $linkColor;
+    //& işareti içinde bulunlan a elementini temsil eder.
+    &:hover {
+      opacity: $linkHoverOpacity;
+    }
+  }
+
+  .container {
+    display: flex;
+
+    header {
+      margin-top: 1rem;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      ul {
+        margin-right: 1rem;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+          border: 2px solid $liBorderColor;
+          border-radius: 15px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*
+main.scss dosyasının compile edilmesi için live sass compiler eklentisi vscode üzerine yüklenmiştir
+bunun dışında sass isimli eklenti de yüklenmiştir.
+*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: bisque;
+}
+
+body a {
+  color: black;
+}
+
+body a:hover {
+  opacity: 0.6;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container header {
+  margin-top: 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body .container header ul {
+  margin-right: 1rem;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container header ul li {
+  border: 2px solid plum;
+  border-radius: 15px;
+  padding: 10px;
+}
+/*# sourceMappingURL=main.css.map */
