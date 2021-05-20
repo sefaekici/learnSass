@@ -8,6 +8,14 @@ $bodyBackground: bisque;
 $linkColor: black;
 $liBorderColor: plum;
 $linkHoverOpacity: 0.6;
+$boxColor: #32ff7e;
+
+.kutu {
+  border: 10px solid $liBorderColor;
+  width: 100px;
+  height: 100px;
+  margin: 1rem;
+}
 
 * {
   margin: 0;
@@ -31,6 +39,33 @@ body {
 
   .container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .kutular {
+      margin-top: 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      height: 200px;
+      background-color: $boxColor;
+      padding: 1rem;
+
+      //Kalıtım İşlemi
+
+      /*
+      Oluşturulan kutu ismindeki classın özellikleri @extend keywords yardımı ile 
+      box1 ve box2 classlarına eklendi bu sayede bir daha kullanılmasına gerek kalmadı 
+      kod tekrarı önlenmiş oldu.
+      */
+
+      .box1,
+      .box2 {
+        @extend .kutu;
+      }
+    }
 
     header {
       margin-top: 1rem;
