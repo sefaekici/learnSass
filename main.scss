@@ -92,12 +92,37 @@ body {
     }
   }
 
+  //Şart Bloğu
   .sart {
     //size değişkeni kontrol edilir if bloklarından hangisine girilir ise o style işlemi .sart isimli elemente uygulanır.
     @if $size==6 {
       color: $boxColor;
     } @else {
       color: $linkColor;
+    }
+  }
+
+  .items {
+    margin-top: 2rem;
+  }
+
+  //For Döngüsü
+  @for $i from 1 through 5 {
+    .item-#{$i} {
+      width: 100px * $i;
+      padding: 10px * $i;
+      background-color: #fff;
+      margin-bottom: 1rem;
+    }
+  }
+
+  //dizi oluşturma işlemi.
+  $dizi: 1, 2, 3, 4, 5;
+
+  //foreach döngüsü
+  @each $var in $dizi {
+    .item-#{$var} {
+      font-size: $var * 12px;
     }
   }
 }

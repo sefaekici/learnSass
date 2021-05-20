@@ -114,4 +114,63 @@ body .container header ul li {
 body .sart {
   color: #32ff7e;
 }
+
+body .items {
+  margin-top: 2rem;
+}
+
+body .item-1 {
+  width: 100px;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+body .item-2 {
+  width: 200px;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+body .item-3 {
+  width: 300px;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+body .item-4 {
+  width: 400px;
+  padding: 40px;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+body .item-5 {
+  width: 500px;
+  padding: 50px;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+body .item-1 {
+  font-size: 12px;
+}
+
+body .item-2 {
+  font-size: 24px;
+}
+
+body .item-3 {
+  font-size: 36px;
+}
+
+body .item-4 {
+  font-size: 48px;
+}
+
+body .item-5 {
+  font-size: 60px;
+}
 /*# sourceMappingURL=main.css.map */
