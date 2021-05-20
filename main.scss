@@ -8,7 +8,7 @@ sass --watch input.scss output.css
 
 //Dışarıdan Dosyaların Dahil Edilmei İşlemi.
 @import "./reset.scss";
-@import "./colors.scss";
+@import "./variables.scss";
 @import "./mixin.scss";
 
 //module isimli dosyanın import edilmesi.module dosyaları oluşturulurken '_' ile başlayarak isimlendirilmelilerdir.
@@ -89,6 +89,15 @@ body {
           padding: 10px;
         }
       }
+    }
+  }
+
+  .sart {
+    //size değişkeni kontrol edilir if bloklarından hangisine girilir ise o style işlemi .sart isimli elemente uygulanır.
+    @if $size==6 {
+      color: $boxColor;
+    } @else {
+      color: $linkColor;
     }
   }
 }
