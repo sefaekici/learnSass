@@ -10,6 +10,7 @@ sass --watch input.scss output.css
 @import "./reset.scss";
 @import "./colors.scss";
 @import "./mixin.scss";
+
 //module isimli dosyanın import edilmesi.module dosyaları oluşturulurken '_' ile başlayarak isimlendirilmelilerdir.
 
 .kutu {
