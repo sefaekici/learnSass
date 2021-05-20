@@ -1,0 +1,9 @@
+@import "./colors.scss";
+
+//parametre olarak degisken alan mixin yapısı.
+@mixin border($ust, $sag, $alt, $sol) {
+  border-top: $ust solid #32ff7e;
+  border-left: $sol solid $linkColor;
+  border-right: $sag solid $liBorderColor;
+  border-bottom: $alt solid $bodyBackground;
+}
