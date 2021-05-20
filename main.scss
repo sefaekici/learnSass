@@ -80,6 +80,7 @@ body {
       }
 
       //include yapısı ile mixinler eklenebilir.
+      //parametre almasaydı @included border() şeklinde kullanılacaktı.
       .box3 {
         @extend .kutu;
         @include border(10px, 5px, 3px, 12px);
@@ -101,7 +102,8 @@ body {
 
         li {
           border: 2px solid $liBorderColor;
-          border-radius: 15px;
+          //scss ile bu şekilde toplama,çıkarma,çarpma,bölme gibi cebirsel işlemler yapılabilir.
+          border-radius: 15px+15px;
           padding: 10px;
         }
       }
