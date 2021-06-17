@@ -83,4 +83,69 @@ body .user-info-component ul li img {
 body .user-info-component ul li a {
   color: #587dfb;
 }
+
+body .team-component {
+  margin: 2rem;
+  width: 500px;
+  height: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px;
+  background-color: #1b2431;
+  color: #c9cedf;
+  border-radius: 10px;
+}
+
+body .team-component h4 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+body .team-component .team-div {
+  width: 100%;
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .team-component .team-div .team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .team-component .team-div .team span {
+  margin-left: 15px;
+}
+
+body .team-component .team-div .team-members {
+  position: relative;
+}
+
+body .team-component .team-div .team-members img {
+  margin: -5px;
+  width: 30px;
+  height: 30px;
+}
 /*# sourceMappingURL=main.css.map */
