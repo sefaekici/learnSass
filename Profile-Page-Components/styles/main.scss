@@ -26,6 +26,9 @@ body {
     justify-content: space-evenly;
     padding: 25px;
     div {
+      img {
+        margin-right: 9px;
+      }
       cursor: pointer;
       background-color: $main-color;
       padding: 10px;

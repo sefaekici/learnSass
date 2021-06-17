@@ -38,4 +38,8 @@ body .followers-component div {
   padding: 10px;
   border-radius: 5px;
 }
+
+body .followers-component div img {
+  margin-right: 9px;
+}
 /*# sourceMappingURL=main.css.map */
