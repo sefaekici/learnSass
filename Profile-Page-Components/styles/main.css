@@ -148,4 +148,35 @@ body .team-component .team-div .team-members img {
   width: 30px;
   height: 30px;
 }
+
+body .skills-component {
+  width: 450px;
+  height: 165px;
+  color: #c9cedf;
+  margin: 2rem;
+}
+
+body .skills-component h4 {
+  font-size: 22px;
+  line-height: 1.7;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+body .skills-component ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .skills-component ul li {
+  background-color: #1b2431;
+  padding: 15px 20px;
+  font-size: 16px;
+  margin-right: 12px;
+  margin-top: 12px;
+  border-radius: 10px;
+}
 /*# sourceMappingURL=main.css.map */

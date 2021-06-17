@@ -105,4 +105,29 @@ body {
       }
     }
   }
+
+  .skills-component {
+    width: 450px;
+    height: 165px;
+    color: #c9cedf;
+    margin: 2rem;
+    h4 {
+      font-size: 22px;
+      line-height: 1.7;
+      font-weight: 400;
+      margin-bottom: 5px;
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        background-color: $secondary-color;
+        padding: 15px 20px;
+        font-size: 16px;
+        margin-right: 12px;
+        margin-top: 12px;
+        border-radius: 10px;
+      }
+    }
+  }
 }
