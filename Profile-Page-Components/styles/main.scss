@@ -1,0 +1,35 @@
+$main-color: #161e29;
+$secondary-color: #1b2431;
+$font-color: #c9cedf;
+$selected-color: #587dfb;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: $main-color;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  .followers-component {
+    background-color: $secondary-color;
+    width: 400px;
+    height: 85px;
+    margin: 2rem;
+    border-radius: 10px;
+    color: $font-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px;
+    div {
+      cursor: pointer;
+      background-color: $main-color;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  }
+}
