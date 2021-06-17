@@ -158,4 +158,104 @@ body .search-nav-component .button-area .selected-button {
   border-radius: 50px;
   color: #2ccdea;
 }
+
+body .filter-component {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 500px;
+  height: 300px;
+  background-color: #3d3f43;
+  margin: 5rem;
+  border-radius: 10px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 2.5rem;
+}
+
+body .filter-component .country {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .filter-component .country select {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #303236;
+  border: none;
+  color: #fff;
+  padding: 0 10px;
+}
+
+body .filter-component .city {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .filter-component .city input {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #303236;
+  border: none;
+  color: #fff;
+  padding: 0 10px;
+}
+
+body .filter-component .button-area {
+  border-top: 1px solid #303236;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .filter-component .button-area a {
+  margin-top: 2rem;
+  color: #fff;
+}
+
+body .filter-component .button-area .cancel-button {
+  opacity: 0.6;
+}
+
+body .filter-component .button-area .apply-button {
+  background: #2ccdea;
+  padding: 1rem 1.5rem;
+  border-radius: 30px;
+}
 /*# sourceMappingURL=main.css.map */
