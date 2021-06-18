@@ -9,5 +9,105 @@
 body {
   width: 100%;
   height: 100%;
+  background-color: #f3f3fb;
+}
+
+body .component {
+  background-color: #fff;
+  border-radius: 12px;
+  margin: 2rem;
+}
+
+body .first-component {
+  padding: 30px;
+  width: 900px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-family: "Mulish", sans-serif;
+}
+
+body .first-component .left-area {
+  margin: 0 2rem;
+}
+
+body .first-component .right-area {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body .first-component .right-area h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+body .first-component .right-area .link-div {
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 2.5rem;
+}
+
+body .first-component .right-area .buttons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .first-component .right-area .buttons .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: #848497;
+  border: 1px solid #848497;
+  padding: 1rem 2rem;
+  font-size: 18px;
+}
+
+body .first-component .right-area .buttons .button:hover {
+  color: #5055b2;
+  border-color: #5055b2;
+}
+
+body .first-component .right-area .buttons .button:hover svg path {
+  stroke: #5055b2;
+}
+
+body .first-component .right-area .buttons .button svg {
+  margin-right: 5px;
 }
 /*# sourceMappingURL=main.css.map */
