@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -76,6 +78,52 @@ body {
           }
         }
       }
+    }
+  }
+
+  .second-component {
+    width: 390px;
+    height: 470px;
+    padding: 50px 60px 60px 60px;
+    font-family: "Mulish", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    h4 {
+      font-size: 30px;
+      margin-bottom: 1.5rem;
+    }
+    .radio-area {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+      margin-bottom: 1.5rem;
+      font-size: 20px;
+
+      label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+        input {
+          cursor: pointer;
+          width: 30px;
+          height: 30px;
+          margin-right: 10px;
+          color: #5055b2;
+          border-color: #5055b2;
+        }
+      }
+    }
+    button {
+      width: 300px;
+      min-height: 65px;
+      border: none;
+      background-color: #5055b2;
+      color: #fff;
+      border-radius: 5px;
     }
   }
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -109,5 +110,78 @@ body .first-component .right-area .buttons .button:hover svg path {
 
 body .first-component .right-area .buttons .button svg {
   margin-right: 5px;
+}
+
+body .second-component {
+  width: 390px;
+  height: 470px;
+  padding: 50px 60px 60px 60px;
+  font-family: "Mulish", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .second-component h4 {
+  font-size: 30px;
+  margin-bottom: 1.5rem;
+}
+
+body .second-component .radio-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+}
+
+body .second-component .radio-area label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+}
+
+body .second-component .radio-area label input {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  color: #5055b2;
+  border-color: #5055b2;
+}
+
+body .second-component button {
+  width: 300px;
+  min-height: 65px;
+  border: none;
+  background-color: #5055b2;
+  color: #fff;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=main.css.map */
