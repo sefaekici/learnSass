@@ -126,4 +126,72 @@ body {
       border-radius: 5px;
     }
   }
+  .third-component {
+    font-family: "Mulish", sans-serif;
+    max-width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .footer {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      color: #a0a1b9;
+      font-family: "Mulish", sans-serif;
+
+      div {
+        &:first-child {
+          margin-right: 5rem;
+        }
+        h5 {
+          margin-bottom: 0.5rem;
+          color: #848497;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .keywords {
+      h3 {
+        font-size: 25px;
+        margin-bottom: 2rem;
+      }
+      .keywords-body {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #848497;
+
+        a {
+          padding: 10px 20px;
+          text-decoration: none;
+          margin-right: 5px;
+          margin-bottom: 5px;
+          border-radius: 3px;
+          border: 1px solid #bcbccb;
+        }
+        .tag {
+          color: #a0a1b9;
+
+          &:hover {
+            border-color: #5055b2;
+            color: #5055b2;
+          }
+        }
+
+        .view-all {
+          margin-bottom: 2rem;
+          border-color: #5055b2;
+          background-color: #5055b2;
+          color: #fff;
+        }
+      }
+    }
+  }
 }

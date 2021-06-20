@@ -184,4 +184,94 @@ body .second-component button {
   color: #fff;
   border-radius: 5px;
 }
+
+body .third-component {
+  font-family: "Mulish", sans-serif;
+  max-width: 500px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px 40px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .third-component .footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: #a0a1b9;
+  font-family: "Mulish", sans-serif;
+}
+
+body .third-component .footer div:first-child {
+  margin-right: 5rem;
+}
+
+body .third-component .footer div h5 {
+  margin-bottom: 0.5rem;
+  color: #848497;
+  font-size: 14px;
+}
+
+body .third-component .keywords h3 {
+  font-size: 25px;
+  margin-bottom: 2rem;
+}
+
+body .third-component .keywords .keywords-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-bottom: 1px solid #848497;
+}
+
+body .third-component .keywords .keywords-body a {
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  border: 1px solid #bcbccb;
+}
+
+body .third-component .keywords .keywords-body .tag {
+  color: #a0a1b9;
+}
+
+body .third-component .keywords .keywords-body .tag:hover {
+  border-color: #5055b2;
+  color: #5055b2;
+}
+
+body .third-component .keywords .keywords-body .view-all {
+  margin-bottom: 2rem;
+  border-color: #5055b2;
+  background-color: #5055b2;
+  color: #fff;
+}
 /*# sourceMappingURL=main.css.map */
